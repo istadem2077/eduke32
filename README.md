@@ -1,2 +1,11 @@
 # eduke32
-This is an unofficial mirror of eduke32 source code
+## Compilation
+  ```
+  $ sudo apt install libflac-dev libvpx-dev libsdl2-dev # Adapt according to your repos and package manager
+  ```
+  ```
+  $ make
+  ```
+Then you'll get 2 new files: eduke32 and mapster32.  
+You will have to put original DUKE3D.GRP from game or any compatible data file.  
+Also you can get [SoundFonts](https://github.com/wrightflyer/SF2_SoundFonts) for this port, as it can improve sound.
