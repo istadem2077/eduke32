@@ -23,4 +23,5 @@ jobs:
       with:
         name: eduke32
         path: |
-            ./eduke32 ./mapster32
+            eduke32 
+            mapster32
